@@ -44,6 +44,10 @@ function CreateAccount() {
       setPassError('password not entered');
       return false;
     }
+    if (password.length < 8) {
+      setPassError("Password has to be longer than 8 characters");
+      return false;
+    }
     setPassError("");
     return true;
   }
