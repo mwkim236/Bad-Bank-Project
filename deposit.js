@@ -37,6 +37,7 @@ function Deposit(){
               Deposit Amount
               <input
                 type="number"
+                min="0"
                 className="form-control"
                 id="deposit"
                 placeholder="Enter deposit amount"

@@ -46,6 +46,7 @@ function Withdraw(){
               Withdraw Amount
               <input
                 type="number"
+                min="0"
                 className="form-control"
                 id="withdraw"
                 placeholder="Enter withdraw amount"
